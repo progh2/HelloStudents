@@ -18,6 +18,12 @@ namespace HelloStudents
              *     객체를 생성해서 추가하는 코드를 넣으세요.
              */
             // 3099
+            students.Add(
+                new Student3099Ham()
+                {
+                    FirstName = "기훈", LastName = "함",
+                    StudentNumber = 3099, BaseYear = 2020
+                });
             // 3101
             // 3102
             // 3103
