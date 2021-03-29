@@ -23,7 +23,15 @@ namespace HelloStudents
                 {
                     FirstName = "기훈", LastName = "함",
                     StudentNumber = 3099, BaseYear = 2020
-                });
+                }); 
+            students.Add(
+                 new Student3106Kim()
+                 {
+                     FirstName = "수현",
+                     LastName = "김",
+                     StudentNumber = 3106,
+                     BaseYear = 2021
+                 });
             // 3101
             // 3102
             // 3103
