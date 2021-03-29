@@ -10,7 +10,7 @@ namespace HelloStudents
     {
         // 속성들 (멤버변수와 다름!)
 
-        //자바로 쓴 것
+        /*//자바로 쓴 것
         public String getLastName()
         {
             return LastName;
@@ -18,7 +18,7 @@ namespace HelloStudents
         public void setLastName(String s)   // LastName { get; set;} 와 같다.
         {
             LastName = s;
-        }
+        }*/
         public string LastName { get; set; }
         public string FirstName { get; set; }
         public int StudentNumber { get; set; }
