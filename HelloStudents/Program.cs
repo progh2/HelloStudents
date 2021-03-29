@@ -28,6 +28,15 @@ namespace HelloStudents
             // 3102
             // 3103
             // 3104
+            students.Add(
+                new Student3104Kim()
+                {
+                    FirstName = "민경",
+                    LastName = "김",
+                    StudentNumber = 3104,
+                    BaseYear = 2021
+                });
+
             // 3105
             // 3106
             // 3107
