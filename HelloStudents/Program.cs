@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HelloStudents
+namespace HelloStudents     // namespace  패키지
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args)             // 메서드 이름 대문자
         {
             List<StudentBase> students = new List<StudentBase>();
 
@@ -29,6 +29,14 @@ namespace HelloStudents
             // 3103
             // 3104
             // 3105
+            students.Add(
+                new Student3105Kim()
+                {
+                    FirstName = "솔민",
+                    LastName = "김",
+                    StudentNumber = 3105,
+                    BaseYear = 2021
+                });
             // 3106
             // 3107
             // 3108
