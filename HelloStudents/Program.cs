@@ -1,14 +1,14 @@
-﻿using System;
+﻿using System; //using은 임포트(import)
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HelloStudents
+namespace HelloStudents //namespace는 패키지
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args)//메소드 이름 대문자
         {
             List<StudentBase> students = new List<StudentBase>();
 
@@ -40,13 +40,29 @@ namespace HelloStudents
             // 3114
             // 3115
             // 3117
+            students.Add(
+                new Student3099Ham()
+                {
+                    FirstName = "MinJung",
+                    LastName = "Choi",
+                    StudentNumber = 3117,
+                    BaseYear = 2021
+                });
+            students.Add(
+                new Student3099Ham()
+                {
+                    FirstName = "민정",
+                    LastName = "최",
+                    StudentNumber = 3117,
+                    BaseYear = 2021
+                });
             // 3118
             // 3119
             // 3120
 
             // 3201
             // 3202
-            // 3203
+            // 3203 
             // 3204
             // 3205
             // 3206
