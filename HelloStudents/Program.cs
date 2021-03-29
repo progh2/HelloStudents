@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+    
+//namespace == 패키지
+//메서드 처음 대문자
 namespace HelloStudents
 {
     class Program
@@ -23,6 +25,14 @@ namespace HelloStudents
                 {
                     FirstName = "기훈", LastName = "함",
                     StudentNumber = 3099, BaseYear = 2020
+                });
+            students.Add(
+                new Student3118Choi()
+                {
+                    FirstName = "수민",
+                    LastName = "최",
+                    StudentNumber = 3118,
+                    BaseYear = 2021
                 });
             // 3101
             // 3102
