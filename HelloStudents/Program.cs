@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Threading.Tasks; //import
 
-namespace HelloStudents
+namespace HelloStudents // 패키지
 {
     class Program
     {
@@ -28,7 +28,7 @@ namespace HelloStudents
             // 3102
             // 3103
             // 3104
-            // 3105
+            // 3105     
             // 3106
             // 3107
             // 3108
@@ -39,6 +39,14 @@ namespace HelloStudents
             // 3113
             // 3114
             // 3115
+            students.Add(
+                new Student3115Lee()
+                {
+                    FirstName = "지민",
+                    LastName = "이",
+                    StudentNumber = 3115,
+                    BaseYear = 2021
+                });
             // 3117
             // 3118
             // 3119
