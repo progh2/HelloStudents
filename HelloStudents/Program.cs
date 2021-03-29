@@ -4,11 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HelloStudents
+namespace HelloStudents //자바로 따지면 namespace는 패키지 같은 것0
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args)  
+        // 메소드 이름의 첫 글자가 대문자이다.
+        // 문자열 타입인 스트링의 첫 글자가 소문자이다.
         {
             List<StudentBase> students = new List<StudentBase>();
 
@@ -36,6 +38,14 @@ namespace HelloStudents
             // 3110
             // 3111
             // 3112
+            students.Add(
+                new Student3112Oh()
+                {
+                    FirstName = "정민",
+                    LastName = "오",
+                    StudentNumber = 3112,
+                    BaseYear = 2021
+                });
             // 3113
             // 3114
             // 3115
