@@ -8,7 +8,7 @@ namespace HelloStudents
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) // string 이 소문자
         {
             List<StudentBase> students = new List<StudentBase>();
 
@@ -34,6 +34,14 @@ namespace HelloStudents
             // 3108
             // 3109
             // 3110
+            students.Add(
+                new Student3110Ryu()
+                {
+                    FirstName = "현서",
+                    LastName = "류",
+                    StudentNumber = 3110,
+                    BaseYear = 2021
+                });
             // 3111
             // 3112
             // 3113
