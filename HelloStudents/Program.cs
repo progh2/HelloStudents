@@ -42,7 +42,7 @@ namespace HelloStudents
                 {
                     FirstName = "수빈",
                     LastName = "이",
-                    StudentNumber = 3113,
+                    StudentNumber = 3113, 
                     BaseYear = 2019
                 });
             // 3114
