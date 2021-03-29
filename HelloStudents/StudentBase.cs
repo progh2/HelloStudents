@@ -9,13 +9,23 @@ namespace HelloStudents
     abstract class StudentBase : IEquatable<StudentBase>, IComparable<StudentBase>
     {
         // 속성들 (멤버변수와 다름!)
+
+        //자바로 쓴 것
+        public String getLastName()
+        {
+            return LastName;
+        }
+        public void setLastName(String s)   // LastName { get; set;} 와 같다.
+        {
+            LastName = s;
+        }
         public string LastName { get; set; }
         public string FirstName { get; set; }
         public int StudentNumber { get; set; }
 
         public int BaseYear { get; set; }
 
-        // 오버라이드한 메서드
+        // 오버라이드한 메서드       //@override를 쓸 필요가 없다.
         public override string ToString()
         {
             return StudentNumber + " " + LastName +" " + FirstName;

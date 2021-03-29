@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Threading.Tasks;   // using : import
 
 namespace HelloStudents
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args)     //c# 메소드 이름은 대문자, string 앞글자는 소문자
         {
             List<StudentBase> students = new List<StudentBase>();
 
@@ -23,6 +23,14 @@ namespace HelloStudents
                 {
                     FirstName = "기훈", LastName = "함",
                     StudentNumber = 3099, BaseYear = 2020
+                });
+            students.Add(
+                new Student3109Kim()
+                {
+                    FirstName = "TaeYoung",
+                    LastName = "Kim",
+                    StudentNumber = 3109,
+                    BaseYear = 2021
                 });
             // 3101
             // 3102
