@@ -1,9 +1,11 @@
-﻿using System;
+﻿// using은 java의 import 같은 역할
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// namespace는 java의 패키지 같은 역할
 namespace HelloStudents
 {
     class Program
@@ -48,6 +50,14 @@ namespace HelloStudents
             // 3106
             // 3107
             // 3108
+            students.Add(
+                new Student3108Kim()
+                {
+                    FirstName = "지영",
+                    LastName = "김",
+                    StudentNumber = 3108,
+                    BaseYear = 2021
+                });
             // 3109
             // 3110
             // 3111
