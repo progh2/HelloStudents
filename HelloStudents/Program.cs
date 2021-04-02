@@ -95,6 +95,14 @@ namespace HelloStudents
             // 3208
             // 3209
             // 3210
+            students.Add(
+               new Student3210Park()
+               {
+                   FirstName = "지윤",
+                   LastName = "박",
+                   StudentNumber = 3210,
+                   BaseYear = 2021
+               });
             // 3211
             // 3212
             // 3213
