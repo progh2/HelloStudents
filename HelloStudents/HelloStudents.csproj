@@ -54,7 +54,7 @@
     <Compile Include="Student3103Kim.cs" />
     <Compile Include="Student3116JO.cs" />
     <Compile Include="Student3199Ham.cs" />
-    <Compile Include="StudentBase.cs" />
+	<Compile Include="Student3216Han.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
