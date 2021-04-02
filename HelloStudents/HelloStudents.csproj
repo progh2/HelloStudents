@@ -54,6 +54,7 @@
     <Compile Include="Student3103Kim.cs" />
     <Compile Include="Student3116JO.cs" />
     <Compile Include="Student3199Ham.cs" />
+    <Compile Include="Student3211Son.cs" />
     <Compile Include="StudentBase.cs" />
   </ItemGroup>
   <ItemGroup>
