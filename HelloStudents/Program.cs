@@ -58,6 +58,12 @@ namespace HelloStudents
                 });
             // 3106
             // 3107
+            students.Add(
+                new Student3107Kim()
+                {
+                    FirstName = "정아", LastName = "김",
+                    StudentNumber = 3107, BaseYear = 2019
+                });
             // 3108
             students.Add(
                 new Student3108Kim()
