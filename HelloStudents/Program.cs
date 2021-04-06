@@ -196,6 +196,14 @@ namespace HelloStudents
 
             // 3201
             // 3202
+            students.Add(
+                new Student3202Gang()
+                {
+                    FirstName = "Jongah", 
+                    LastName = "Gang",
+                    StudentNumber = 3202, 
+                    BaseYear = 3202
+                });
             // 3203 
             // 3204
             // 3205
