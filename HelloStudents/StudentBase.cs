@@ -9,20 +9,20 @@ namespace HelloStudents
     abstract class StudentBase : IEquatable<StudentBase>, IComparable<StudentBase>
     {
         // 속성들 (멤버변수와 다름!)
-        public string LastName { get; set; } // getter & setter 메소드
+        public string LastName { get; set; } //getter, setter 메서드 생성
         public string FirstName { get; set; }
         public int StudentNumber { get; set; }
 
         public int BaseYear { get; set; }
 
         // 오버라이드한 메서드
-        public override string ToString() // override 키워드를 써준다.
+        public override string ToString()               // override --> 명시적으로 작성
         {
             return StudentNumber + " " + LastName +" " + FirstName;
         }
 
         // 구현해야 할 추상 메서드
-        public abstract string Hello();
+        public abstract string Hello();//추상메서드
 
         // 같은지 비교하기 전에 비교 가능한 클래스인지 확인 후 같은지 비교하는 메서드
         public override bool Equals(object obj)
