@@ -10,7 +10,7 @@ namespace HelloStudents
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args)             // 메서드 이름 대문자
         {
             List<StudentBase> students = new List<StudentBase>();
 
@@ -46,7 +46,15 @@ namespace HelloStudents
                    BaseYear = 2020
                });
             // 3104
-            // 3105     
+            // 3105
+            students.Add(
+                new Student3105Kim()
+                {
+                    FirstName = "솔민",
+                    LastName = "김",
+                    StudentNumber = 3105,
+                    BaseYear = 2021
+                });
             // 3106
             // 3107
             // 3108

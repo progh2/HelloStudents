@@ -16,7 +16,7 @@ namespace HelloStudents
         public int BaseYear { get; set; }
 
         // 오버라이드한 메서드
-        public override string ToString()
+        public override string ToString()               // override --> 명시적으로 작성
         {
             return StudentNumber + " " + LastName +" " + FirstName;
         }
