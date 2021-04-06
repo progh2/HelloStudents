@@ -9,7 +9,7 @@ namespace HelloStudents
     abstract class StudentBase : IEquatable<StudentBase>, IComparable<StudentBase>
     {
         // 속성들 (멤버변수와 다름!)
-        public string LastName { get; set; }                // getter, setter 작성
+        public string LastName { get; set; } //getter, setter 메서드 생성
         public string FirstName { get; set; }
         public int StudentNumber { get; set; }
 
