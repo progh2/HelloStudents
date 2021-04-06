@@ -99,6 +99,14 @@ namespace HelloStudents
                     StudentNumber = 3109,
                 });
             // 3110
+            students.Add(
+                new Student3110Ryu()
+                {
+                    FirstName = "현서",
+                    LastName = "류",
+                    StudentNumber = 3110,
+                    BaseYear = 2021
+                });
             // 3111
             students.Add(
                 new Student3111Shin()
