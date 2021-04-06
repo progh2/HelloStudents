@@ -54,7 +54,13 @@
     <Compile Include="Student3103Kim.cs" />
     <Compile Include="Student3116JO.cs" />
     <Compile Include="Student3199Ham.cs" />
+<<<<<<< HEAD
     <Compile Include="Student3208Kim.cs" />
+=======
+    <Compile Include="Student3209Moon.cs" />
+    <Compile Include="Student3214Lee.cs" />
+    <Compile Include="Student3211Son.cs" />
+>>>>>>> d71a868d626d43bd81a61c36d8bd67045cf3f0de
     <Compile Include="StudentBase.cs" />
   </ItemGroup>
   <ItemGroup>
