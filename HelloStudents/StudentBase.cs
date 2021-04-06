@@ -24,7 +24,7 @@ namespace HelloStudents
 
         // 같은지 비교하기 전에 비교 가능한 클래스인지 확인 후 같은지 비교하는 메서드
         public override bool Equals(object obj)
-        {
+        { 
             if (obj == null) return false;
             StudentBase objAsStudentBase = obj as StudentBase;
             if (objAsStudentBase == null) return false;
