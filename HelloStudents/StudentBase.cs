@@ -9,14 +9,14 @@ namespace HelloStudents
     abstract class StudentBase : IEquatable<StudentBase>, IComparable<StudentBase>
     {
         // 속성들 (멤버변수와 다름!)
-        public string LastName { get; set; }//문자열 멤버변수
-        public string FirstName { get; set; }//문자열 멤버변수
-        public int StudentNumber { get; set; }//인트형 멤버변수
+        public string LastName { get; set; } //getter, setter 메서드 생성
+        public string FirstName { get; set; }
+        public int StudentNumber { get; set; }
 
         public int BaseYear { get; set; }
 
         // 오버라이드한 메서드
-        public override string ToString()//오버라이드(override)라는 키워드 써주기
+        public override string ToString()               // override --> 명시적으로 작성
         {
             return StudentNumber + " " + LastName +" " + FirstName;
         }
