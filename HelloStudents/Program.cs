@@ -1,14 +1,17 @@
-﻿using System;
+﻿// using은 java의 import 같은 역할
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Threading.Tasks; //import
 
+
+// namespace는 java의 패키지 같은 역할
 namespace HelloStudents
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args)             // 메서드 이름 대문자
         {
             List<StudentBase> students = new List<StudentBase>();
 
@@ -24,11 +27,35 @@ namespace HelloStudents
                     FirstName = "기훈", LastName = "함",
                     StudentNumber = 3099, BaseYear = 2020
                 });
+            students.Add(
+                new Student3199Ham()
+                {
+                    FirstName = "Gihun",
+                    LastName = "Ham",
+                    StudentNumber = 3199,
+                    BaseYear = 2021
+                });
             // 3101
             // 3102
             // 3103
+            students.Add(
+               new Student3103Kim()
+               {
+                   FirstName = "나은",
+                   LastName = "김",
+                   StudentNumber = 3103,
+                   BaseYear = 2020
+               });
             // 3104
             // 3105
+            students.Add(
+                new Student3105Kim()
+                {
+                    FirstName = "솔민",
+                    LastName = "김",
+                    StudentNumber = 3105,
+                    BaseYear = 2021
+                });
             // 3106
             // 3107
             students.Add(
@@ -38,32 +65,118 @@ namespace HelloStudents
                     StudentNumber = 3107, BaseYear = 2019
                 });
             // 3108
+            students.Add(
+                new Student3108Kim()
+                {
+                    FirstName = "지영",
+                    LastName = "김",
+                    StudentNumber = 3108,
+                    BaseYear = 2021
+                });
             // 3109
+            students.Add(          
+                new Student3109Kim()
+                {
+                    FirstName = "TaeYoung",
+                    LastName = "Kim",
+                    StudentNumber = 3109,
+                });
             // 3110
             // 3111
             // 3112
+            students.Add(
+                new Student3112Oh()
+                {
+                    FirstName = "정민",
+                    LastName = "오",
+                    StudentNumber = 3112,
+                    BaseYear = 2021
+                });
             // 3113
+            students.Add(
+                new Student3113Lee()
+                {
+                    FirstName = "수빈",
+                    LastName = "이",
+                    StudentNumber = 3113, 
+                    BaseYear = 2019
+                });
             // 3114
             // 3115
+            students.Add(
+                new Student3115Lee()
+                {
+                    FirstName = "지민",
+                    LastName = "이",
+                    StudentNumber = 3115,
+                    BaseYear = 2021
+                });
+            // 3116
+            students.Add(
+                new Student3116JO()
+                {
+                    FirstName = "서영", LastName = "조",
+                    StudentNumber = 3116, BaseYear = 2020
+                });
             // 3117
+            students.Add(
+                new Student3099Ham()
+                {
+                    FirstName = "MinJung",
+                    LastName = "Choi",
+                    StudentNumber = 3117,
+                    BaseYear = 2021
+                });
+            students.Add(
+                new Student3099Ham()
+                {
+                    FirstName = "민정",
+                    LastName = "최",
+                    StudentNumber = 3117,
+                    BaseYear = 2021
+                });
             // 3118
             // 3119
             // 3120
 
             // 3201
             // 3202
-            // 3203
+            // 3203 
             // 3204
             // 3205
             // 3206
             // 3207
             // 3208
             // 3209
+            students.Add(
+               new Student3209Kim()
+               {
+                   FirstName = "진진",
+                   LastName = "문",
+                   StudentNumber = 3209,
+                   BaseYear = 2021
+               });
             // 3210
             // 3211
+            students.Add(
+                new Student3211Son()
+                {
+                    FirstName = "지우",
+                    LastName = "손",
+                    StudentNumber = 3211,
+                    BaseYear = 2021
+                });
             // 3212
             // 3213
             // 3214
+            students.Add(
+                new Student3214Lee()
+                {
+                    FirstName = "숙민",
+                    LastName = "이",
+                    StudentNumber = 3214,
+                    BaseYear = 2021
+                });
             // 3215
             // 3217
             // 3218
