@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks; //import
 
+
 // namespace는 java의 패키지 같은 역할
 namespace HelloStudents
 {
@@ -67,6 +68,13 @@ namespace HelloStudents
                     BaseYear = 2021
                 });
             // 3109
+            students.Add(          
+                new Student3109Kim()
+                {
+                    FirstName = "TaeYoung",
+                    LastName = "Kim",
+                    StudentNumber = 3109,
+                });
             // 3110
             // 3111
             // 3112
