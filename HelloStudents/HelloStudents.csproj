@@ -52,6 +52,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Student3099Ham.cs" />
+    <Compile Include="Student3114Lee.cs" />
     <Compile Include="Student3107Kim.cs" />
     <Compile Include="Student3112Oh.cs" />
     <Compile Include="Student3117Choi.cs" />

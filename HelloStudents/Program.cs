@@ -102,6 +102,14 @@ namespace HelloStudents
                     BaseYear = 2019
                 });
             // 3114
+            students.Add(
+                new Student3114Lee()
+                {
+                    FirstName = "연지",
+                    LastName = "이",
+                    StudentNumber = 3114,
+                    BaseYear = 2019
+                });
             // 3115
             students.Add(
                 new Student3115Lee()
