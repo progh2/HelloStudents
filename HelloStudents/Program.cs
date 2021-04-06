@@ -94,6 +94,14 @@ namespace HelloStudents
             // 3207
             // 3208
             // 3209
+            students.Add(
+               new Student3209Kim()
+               {
+                   FirstName = "진진",
+                   LastName = "문",
+                   StudentNumber = 3209,
+                   BaseYear = 2021
+               });
             // 3210
             students.Add(
                new Student3210Park()
@@ -104,9 +112,25 @@ namespace HelloStudents
                    BaseYear = 2021
                });
             // 3211
+            students.Add(
+                new Student3211Son()
+                {
+                    FirstName = "지우",
+                    LastName = "손",
+                    StudentNumber = 3211,
+                    BaseYear = 2021
+                });
             // 3212
             // 3213
             // 3214
+            students.Add(
+                new Student3214Lee()
+                {
+                    FirstName = "숙민",
+                    LastName = "이",
+                    StudentNumber = 3214,
+                    BaseYear = 2021
+                });
             // 3215
             // 3217
             // 3218
