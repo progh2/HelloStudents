@@ -97,13 +97,29 @@ namespace HelloStudents
                     StudentNumber = 3116, BaseYear = 2020
                 });
             // 3117
+            students.Add(
+                new Student3099Ham()
+                {
+                    FirstName = "MinJung",
+                    LastName = "Choi",
+                    StudentNumber = 3117,
+                    BaseYear = 2021
+                });
+            students.Add(
+                new Student3099Ham()
+                {
+                    FirstName = "민정",
+                    LastName = "최",
+                    StudentNumber = 3117,
+                    BaseYear = 2021
+                });
             // 3118
             // 3119
             // 3120
 
             // 3201
             // 3202
-            // 3203
+            // 3203 
             // 3204
             // 3205
             // 3206

@@ -22,7 +22,7 @@ namespace HelloStudents
         }
 
         // 구현해야 할 추상 메서드
-        public abstract string Hello();
+        public abstract string Hello();//추상메서드
 
         // 같은지 비교하기 전에 비교 가능한 클래스인지 확인 후 같은지 비교하는 메서드
         public override bool Equals(object obj)
