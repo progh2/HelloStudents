@@ -47,6 +47,15 @@ namespace HelloStudents
                    BaseYear = 2020
                });
             // 3104
+            students.Add(
+                new Student3104Kim()
+                {
+                    FirstName = "민경",
+                    LastName = "김",
+                    StudentNumber = 3104,
+                    BaseYear = 2021
+                });
+
             // 3105
             students.Add(
                 new Student3105Kim()
