@@ -8,10 +8,11 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>HelloStudents</RootNamespace>
     <AssemblyName>HelloStudents</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,6 +33,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>HelloStudents.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,9 +47,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Student3109Kim.cs" />
+    <Compile Include="MyModule1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Student3099Ham.cs" />
+    <Compile Include="Student3107Kim.cs" />
+    <Compile Include="Student3112Oh.cs" />
+    <Compile Include="Student3117Choi.cs" />
+    <Compile Include="Student3113Lee.cs" />
+    <Compile Include="Student3105Kim.cs" />
+    <Compile Include="Student3115Lee.cs" />
+    <Compile Include="Student3108Kim.cs" />
+    <Compile Include="Student3103Kim.cs" />
+    <Compile Include="Student3116JO.cs" />
+    <Compile Include="Student3199Ham.cs" />
+    <Compile Include="Student3209Moon.cs" />
+    <Compile Include="Student3214Lee.cs" />
+    <Compile Include="Student3211Son.cs" />
     <Compile Include="StudentBase.cs" />
     <Compile Include="Student3118Choi.cs" />
   </ItemGroup>
