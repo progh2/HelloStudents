@@ -53,7 +53,7 @@ namespace HelloStudents
                    FirstName = "나은",
                    LastName = "김",
                    StudentNumber = 3103,
-                   BaseYear = 2020
+                   BaseYear = 2021
                });
             // 3104
             students.Add(
@@ -237,6 +237,15 @@ namespace HelloStudents
             // 3218
             // 3219
             // 3220
+            // 3299
+            students.Add(
+                new Student3299Ham()
+                {
+                    FirstName = "기훈",
+                    LastName = "함",
+                    StudentNumber = 3299,
+                    BaseYear = 2021
+                });
 
             // 학번 순으로 정렬
             students.Sort();
