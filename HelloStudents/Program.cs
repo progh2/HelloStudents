@@ -101,7 +101,7 @@ namespace HelloStudents
                 });
             // 3109
             students.Add(          
-                new Student3109Kim()
+                new Student3109K()
                 {
                     FirstName = "TaeYoung",
                     LastName = "Kim",
