@@ -100,7 +100,7 @@ namespace HelloStudents
                     BaseYear = 2021
                 });
             // 3109
-            students.Add(          
+            students.Add(
                 new Student3109Kim()
                 {
                     FirstName = "TaeYoung",
@@ -117,12 +117,7 @@ namespace HelloStudents
                     BaseYear = 2021
                 });
             // 3111
-            students.Add(
-                new Student3111Shin()
-                {
-                    FirstName = "잎새", LastName = "신",
-                    StudentNumber = 3111, BaseYear = 2019
-                });
+
             // 3112
             students.Add(
                 new Student3112Oh()
@@ -138,7 +133,7 @@ namespace HelloStudents
                 {
                     FirstName = "수빈",
                     LastName = "이",
-                    StudentNumber = 3113, 
+                    StudentNumber = 3113,
                     BaseYear = 2019
                 });
             // 3114
@@ -184,15 +179,18 @@ namespace HelloStudents
                     BaseYear = 2021
                 });
             // 3118
-            students.Add(          
-                new Student3118Choi()
-                {
-                    FirstName = "수민",
-                    LastName = "최",
-                    StudentNumber = 3118,
-                });                  
+
             // 3119
             // 3120
+            //3213
+            students.Add(
+                new Student3213Lim()
+                {
+                    FirstName = "소영",
+                    LastName = "임",
+                    StudentNumber = 3213,
+                    BaseYear = 2024
+                });
 
             // 3201
             // 3202
@@ -203,14 +201,7 @@ namespace HelloStudents
             // 3207
             // 3208
             // 3209
-            students.Add(
-               new Student3209Kim()
-               {
-                   FirstName = "진진",
-                   LastName = "문",
-                   StudentNumber = 3209,
-                   BaseYear = 2021
-               });
+           
             // 3210
             // 3211
             students.Add(
