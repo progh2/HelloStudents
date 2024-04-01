@@ -1,7 +1,7 @@
 ﻿namespace HelloStudents
 {
 
-    
+
     class Student3103Kim : StudentBase
     {
         public override string Hello()

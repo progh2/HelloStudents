@@ -1,9 +1,6 @@
 ﻿// using은 java의 import 같은 역할
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks; //import
 
 
 // namespace는 java의 패키지 같은 역할
@@ -24,8 +21,10 @@ namespace HelloStudents
             students.Add(
                 new Student3099Ham()
                 {
-                    FirstName = "기훈", LastName = "함",
-                    StudentNumber = 3099, BaseYear = 2020
+                    FirstName = "기훈",
+                    LastName = "함",
+                    StudentNumber = 3099,
+                    BaseYear = 2020
                 });
             students.Add(
                 new Student3199Ham()
@@ -87,8 +86,10 @@ namespace HelloStudents
             students.Add(
                 new Student3107Kim()
                 {
-                    FirstName = "정아", LastName = "김",
-                    StudentNumber = 3107, BaseYear = 2019
+                    FirstName = "정아",
+                    LastName = "김",
+                    StudentNumber = 3107,
+                    BaseYear = 2019
                 });
             // 3108
             students.Add(
@@ -100,7 +101,7 @@ namespace HelloStudents
                     BaseYear = 2021
                 });
             // 3109
-            students.Add(          
+            students.Add(
                 new Student3109Kim()
                 {
                     FirstName = "TaeYoung",
@@ -117,12 +118,7 @@ namespace HelloStudents
                     BaseYear = 2021
                 });
             // 3111
-            students.Add(
-                new Student3111Shin()
-                {
-                    FirstName = "잎새", LastName = "신",
-                    StudentNumber = 3111, BaseYear = 2019
-                });
+          
             // 3112
             students.Add(
                 new Student3112Oh()
@@ -132,15 +128,7 @@ namespace HelloStudents
                     StudentNumber = 3112,
                     BaseYear = 2021
                 });
-            // 3113
-            students.Add(
-                new Student3113Lee()
-                {
-                    FirstName = "수빈",
-                    LastName = "이",
-                    StudentNumber = 3113, 
-                    BaseYear = 2019
-                });
+           
             // 3114
             students.Add(
                 new Student3114Lee()
@@ -163,8 +151,10 @@ namespace HelloStudents
             students.Add(
                 new Student3116JO()
                 {
-                    FirstName = "서영", LastName = "조",
-                    StudentNumber = 3116, BaseYear = 2020
+                    FirstName = "서영",
+                    LastName = "조",
+                    StudentNumber = 3116,
+                    BaseYear = 2020
                 });
             // 3117
             students.Add(
@@ -183,15 +173,7 @@ namespace HelloStudents
                     StudentNumber = 3117,
                     BaseYear = 2021
                 });
-            // 3118
-            students.Add(          
-                new Student3118Choi()
-                {
-                    FirstName = "수민",
-                    LastName = "최",
-                    StudentNumber = 3118,
-                });                  
-            // 3119
+           
             // 3120
 
             // 3201
@@ -203,14 +185,7 @@ namespace HelloStudents
             // 3207
             // 3208
             // 3209
-            students.Add(
-               new Student3209Kim()
-               {
-                   FirstName = "진진",
-                   LastName = "문",
-                   StudentNumber = 3209,
-                   BaseYear = 2021
-               });
+            
             // 3210
             // 3211
             students.Add(
@@ -232,6 +207,14 @@ namespace HelloStudents
                     StudentNumber = 3214,
                     BaseYear = 2021
                 });
+            students.Add(
+               new Student3214Lee()
+               {
+                   FirstName = "지현",
+                   LastName = "임",
+                   StudentNumber = 3214,
+                   BaseYear = 2024
+               });
             // 3215
             // 3217
             // 3218
@@ -242,7 +225,8 @@ namespace HelloStudents
             students.Sort();
 
             // 명단 출력
-            foreach( StudentBase student in students){
+            foreach (StudentBase student in students)
+            {
                 Console.WriteLine(student.Hello());
             }
         }

@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace HelloStudents
+﻿namespace HelloStudents
 {
-    class Student3214Lee:StudentBase
+    class Student3214Lee : StudentBase
     {
         public override string Hello()
         {

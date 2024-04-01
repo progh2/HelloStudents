@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HelloStudents
 {
@@ -16,7 +12,7 @@ namespace HelloStudents
         // 오버라이드한 메서드
         public override string ToString()               // override --> 명시적으로 작성
         {
-            return StudentNumber + " " + LastName +" " + FirstName;
+            return StudentNumber + " " + LastName + " " + FirstName;
         }
 
         // 구현해야 할 추상 메서드
@@ -24,7 +20,7 @@ namespace HelloStudents
 
         // 같은지 비교하기 전에 비교 가능한 클래스인지 확인 후 같은지 비교하는 메서드
         public override bool Equals(object obj)
-        { 
+        {
             if (obj == null) return false;
             StudentBase objAsStudentBase = obj as StudentBase;
             if (objAsStudentBase == null) return false;
