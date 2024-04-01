@@ -180,7 +180,15 @@ namespace HelloStudents
             // 3118
             // 3119
             // 3120
-
+            // 3200
+            students.Add(
+                new Student3200Ham()
+                {
+                    FirstName = "기훈",
+                    LastName = "함",
+                    StudentNumber = 3200,
+                    BaseYear = 2024
+                });
             // 3201
             // 3202
             // 3203 
