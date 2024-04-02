@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Student3207Noh.cs" />
     <Compile Include="Student3109Kim.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -66,10 +67,12 @@
     <Compile Include="Student3103Kim.cs" />
     <Compile Include="Student3116JO.cs" />
     <Compile Include="Student3199Ham.cs" />
+    <Compile Include="Student3200Ham.cs" />
     <Compile Include="Student3209Moon.cs" />
     <Compile Include="Student3212Lee.cs" />
     <Compile Include="Student3214Lee.cs" />
     <Compile Include="Student3211Son.cs" />
+    <Compile Include="Student3215Lim.cs" />
     <Compile Include="StudentBase.cs" />
     <Compile Include="Student3118Choi.cs" />
   </ItemGroup>
