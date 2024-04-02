@@ -117,12 +117,6 @@ namespace HelloStudents
                     BaseYear = 2021
                 });
             // 3111
-            /*students.Add(
-                new Student3111Shin()
-                {
-                    FirstName = "잎새", LastName = "신",
-                    StudentNumber = 3111, BaseYear = 2019
-                });*/
             // 3112
             students.Add(
                 new Student3112Oh()
@@ -184,16 +178,17 @@ namespace HelloStudents
                     BaseYear = 2021
                 });
             // 3118
-           /* students.Add(          
-                new Student3118Choi()
-                {
-                    FirstName = "수민",
-                    LastName = "최",
-                    StudentNumber = 3118,
-                });   */               
             // 3119
             // 3120
-
+            // 3200
+            students.Add(
+                new Student3200Ham()
+                {
+                    FirstName = "기훈",
+                    LastName = "함",
+                    StudentNumber = 3200,
+                    BaseYear = 2024
+                });
             // 3201
             // 3202
             // 3203 
@@ -203,14 +198,6 @@ namespace HelloStudents
             // 3207
             // 3208
             // 3209
-            /*students.Add(
-               new Student3209Kim()
-               {
-                   FirstName = "진진",
-                   LastName = "문",
-                   StudentNumber = 3209,
-                   BaseYear = 2021
-               });*/
             // 3210
             // 3211
             students.Add(
