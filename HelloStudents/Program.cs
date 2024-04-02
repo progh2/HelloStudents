@@ -220,6 +220,14 @@ namespace HelloStudents
                     BaseYear = 2021
                 });
             // 3215
+            students.Add(
+              new Student3215Lim()
+              {
+                  FirstName = "효진",
+                  LastName = "임",
+                  StudentNumber = 3215,
+                  BaseYear = 2024
+              });
             // 3217
             // 3218
             // 3219

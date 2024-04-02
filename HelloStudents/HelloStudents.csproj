@@ -70,6 +70,7 @@
     <Compile Include="Student3209Moon.cs" />
     <Compile Include="Student3214Lee.cs" />
     <Compile Include="Student3211Son.cs" />
+    <Compile Include="Student3215Lim.cs" />
     <Compile Include="StudentBase.cs" />
     <Compile Include="Student3118Choi.cs" />
   </ItemGroup>
