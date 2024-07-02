@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Student3201Kang.cs" />
     <Compile Include="Student3207Noh.cs" />
     <Compile Include="Student3109Kim.cs" />
     <Compile Include="Program.cs" />
