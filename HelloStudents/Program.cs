@@ -101,7 +101,7 @@ namespace HelloStudents
                 });
             // 3109
             students.Add(          
-                new Student3109K()
+                new Student3109Kim()
                 {
                     FirstName = "TaeYoung",
                     LastName = "Kim",
@@ -190,6 +190,14 @@ namespace HelloStudents
                     BaseYear = 2024
                 });
             // 3201
+             students.Add(
+            new Student3201Kang()
+            {
+                FirstName = "지윤",
+                LastName = "강",
+                StudentNumber = 3201,
+                BaseYear = 2024
+            });
             // 3202
             // 3203 
             // 3204
